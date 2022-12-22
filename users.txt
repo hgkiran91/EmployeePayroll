@@ -1,0 +1,17 @@
+    "firstName": "Mahesh Makam",
+    "lastName": "Prasad",
+    "email": "mahesh5490@gmail.com",
+    "password": "mahesh1234"
+
+"firstName": "Gowrav",
+    "lastName": "Sharma",
+    "email": "gowrav@gmail.com",
+    "password": "gowrav987"
+
+npm i bcrypt
+const hash = bcrypt.hashSync(myPlaintextPassword, saltRounds);
+// Store hash in your password DB.
+bcrypt.compareSync(myPlaintextPassword, hash); // true
+
+CLIENTID = 221839394305-rlfuqemok8qjim2l6rjpbflasctoej04.apps.googleusercontent.com
+CLIENT_SECRET = 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

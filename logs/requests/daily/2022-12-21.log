@@ -1,0 +1,16 @@
+info: ::1 - - [21/Dec/2022:05:44:46 +0000] "GET /api/v1/employees HTTP/1.1" 201 552 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Dec/2022:05:45:24 +0000] "GET /api/v1/employees HTTP/1.1" 201 560 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Dec/2022:16:59:06 +0000] "GET /api/v1/employees/2 HTTP/1.1" 500 90 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Dec/2022:16:59:56 +0000] "GET /api/v1/employees/2 HTTP/1.1" 200 310 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Dec/2022:17:00:03 +0000] "GET /api/v1/employees/1 HTTP/1.1" 200 303 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Dec/2022:17:00:43 +0000] "PUT /api/v1/employees/1 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Dec/2022:17:01:21 +0000] "PUT /api/v1/employees/1 HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Dec/2022:17:03:49 +0000] "PUT /api/v1/employees/1 HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
