@@ -1,0 +1,122 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T14:34:29.755Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:34:30.034Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T14:48:10.466Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:48:10.602Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T14:48:16.865Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:48:16.932Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T14:48:26.677Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:48:26.758Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:48:34.499Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T14:48:56.004Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:48:56.088Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T14:49:09.694Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:49:09.777Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:50:43.652Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:50:53.354Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:50:56.229Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T14:51:00.273Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:51:00.356Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T14:51:02.738Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:51:02.823Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T14:58:56.000Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:58:56.122Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T14:59:04.777Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:59:04.849Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T14:59:07.599Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T14:59:07.696Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T15:02:27.646Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T15:02:27.720Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T17:50:47.439Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T17:50:47.621Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T17:51:10.619Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T17:52:56.392Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T17:52:56.506Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emp_email" is not allowed 
+    url - /api/v1/employees 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-25T17:55:05.766Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T17:55:29.128Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T17:55:29.208Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emp_email" is not allowed 
+    url - /api/v1/employees 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-25T17:55:54.549Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T17:56:47.180Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T17:56:47.262Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T17:58:36.147Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T17:58:36.248Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emp_email" is not allowed 
+    url - /api/v1/employees 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-25T17:59:23.055Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T18:00:20.861Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T18:00:20.938Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emp_email" is not allowed 
+    url - /api/v1/employees 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-25T18:00:26.369Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T18:00:41.305Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T18:00:41.379Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T18:05:21.076Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T18:05:21.191Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T18:05:53.936Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T18:05:54.014Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T18:06:27.079Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T18:06:27.159Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emp_email" is not allowed 
+    url - /api/v1/employees 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-25T18:06:41.050Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emp_email" is not allowed 
+    url - /api/v1/employees 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-25T18:07:27.101Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T18:08:13.837Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T18:08:13.916Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T18:08:26.141Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T18:08:33.858Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T18:08:33.940Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T18:08:40.754Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T18:08:46.602Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T18:08:46.698Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emp_id" is required 
+    url - /api/v1/employees 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-25T18:09:06.087Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emp_email" is not allowed 
+    url - /api/v1/employees 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-25T18:09:36.924Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-25T18:11:39.882Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T18:11:39.978Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emp_email" is not allowed 
+    url - /api/v1/employees 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-25T18:12:03.505Z"}

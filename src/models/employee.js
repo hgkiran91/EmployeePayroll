@@ -18,7 +18,8 @@ module.exports = (sequelize, DataTypes) => {
       emp_phone: DataTypes.STRING,
       emp_address: DataTypes.STRING,
       emp_city: DataTypes.STRING,
-      emp_joining_date: DataTypes.STRING
+      emp_joining_date: DataTypes.STRING,
+      emp_id: DataTypes.STRING
     },
     {
       sequelize,

@@ -18,18 +18,18 @@ export const newUserValidator = (req, res, next) => {
 
 export const employeeValidator = (req, res, next) => {
   const schema = Joi.object({
-      emp_name: Joi.string().min(3).required(),
-      emp_dob: Joi.string().min(3).required(),
-      emp_phone: Joi.string().min(3).required(),
-      emp_address: Joi.string().min(8).required(),
-      emp_city: Joi.string().min(8).required(),
-      emp_joining_date: Joi.string().required()
+    emp_name: Joi.string().min(3).required(),
+    emp_dob: Joi.string().min(3).required(),
+    emp_phone: Joi.string().min(3).required(),
+    emp_address: Joi.string().min(8).required(),
+    emp_city: Joi.string().min(8).required(),
+    emp_joining_date: Joi.string().required()
   });
   const { error, value } = schema.validate(req.body);
   if (error) {
-      next(error);
+    next(error);
   } else {
-      req.validatedBody = value;
-      next();
+    req.validatedBody = value;
+    next();
   }
 };

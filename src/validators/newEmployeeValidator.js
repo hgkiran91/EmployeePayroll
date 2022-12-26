@@ -7,7 +7,7 @@ const employeeValidator = (req, res, next) => {
         emp_phone: Joi.string().min(3).required(),
         emp_address: Joi.string().min(8).required(),
         emp_city: Joi.string().min(8).required(),
-        emp_joining_date: Joi.string().required()
+        emp_joining_date: Joi.string().required(),
     });
     const { error, value } = schema.validate(req.body);
     if (error) {

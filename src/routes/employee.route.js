@@ -1,11 +1,12 @@
 import express from 'express';
 import * as employeeController from '../controllers/employee.controller';
 import { employeeValidator } from '../validators/user.validator';
+import { userAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
 //route to add employees
-router.post('', employeeValidator, employeeController.addingEmployee);
+router.post('', employeeValidator, userAuth, employeeController.addingEmployee);
 
 //route to get all employees
 router.get('', employeeController.getAllEmployees);

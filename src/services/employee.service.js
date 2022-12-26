@@ -19,9 +19,9 @@ export const getSingleEmployee = async (id) => {
     return data;
 }
 
-// update single note
+// update single employee
 export const updateEmployee = async (id, body) => {
-    const data = await employee.update({ where: { id: id }, body }, { new: true });
+    const data = await employee.update(body, { where: { id: id } });
     return data;
 };
 
