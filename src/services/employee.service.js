@@ -8,8 +8,8 @@ export const addingEmployees = async (body) => {
 }
 
 //get all employees
-export const getAllEmployees = async () => {
-    const data = await employee.findAll()
+export const getAllEmployees = async (id) => {
+    const data = await employee.findAll({ where: { id: id } })
     return data;
 }
 

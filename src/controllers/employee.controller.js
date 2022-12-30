@@ -31,7 +31,7 @@ export const addingEmployee = async (req, res, next) => {
  */
 export const getAllEmployees = async (req, res, next) => {
     try {
-        const data = await EmployeeServices.getAllEmployees()
+        const data = await EmployeeServices.getAllEmployees(req.body.emp_id)
         res.status(HttpStatus.CREATED).json({
             code: HttpStatus.CREATED,
             data: data,

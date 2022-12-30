@@ -9,15 +9,15 @@ const router = express.Router();
 router.post('', employeeValidator, userAuth, employeeController.addingEmployee);
 
 //route to get all employees
-router.get('', employeeController.getAllEmployees);
+router.get('', userAuth, employeeController.getAllEmployees);
 
 //route to get single employee
-router.get('/:id', employeeController.getSingleEmployee);
+router.get('/:id', userAuth, employeeController.getSingleEmployee);
 
 //router to update employee
-router.put('/:id', employeeController.updateEmployee);
+router.put('/:id', userAuth, employeeController.updateEmployee);
 
 //router to delete employee
-router.delete('/:id', employeeController.deleteEmployee);
+router.delete('/:id', userAuth, employeeController.deleteEmployee);
 
 export default router;

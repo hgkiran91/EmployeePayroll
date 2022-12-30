@@ -3,10 +3,20 @@
     "email": "mahesh5490@gmail.com",
     "password": "mahesh1234"
 
-"firstName": "Gowrav",
+    "firstName": "Gowrav",
     "lastName": "Sharma",
     "email": "gowrav@gmail.com",
     "password": "gowrav987"
+
+    "firstName": "Prem",
+    "lastName": "kumar",
+    "email": "prem@gmail.com",
+    "password": "prem1234"
+
+"first_name": "Nikhil",
+    "last_name": "jain",
+    "email": "nikhil@gmail.com",
+    "password": "nikhil1234"
 
 npm i bcrypt
 const hash = bcrypt.hashSync(myPlaintextPassword, saltRounds);
